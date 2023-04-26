@@ -2,6 +2,21 @@
 
 [sub_resource type="BoxMesh" id="BoxMesh_6clns"]
 
+[sub_resource type="Animation" id="Animation_d1xbe"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CSGMesh3D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
 [sub_resource type="Animation" id="Animation_mi6jd"]
 resource_name = "anim1"
 length = 3.0
@@ -16,21 +31,6 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
 "values": [Vector3(0, 0, 0), Vector3(3.14159, 0, 0), Vector3(0, 0, 0)]
-}
-
-[sub_resource type="Animation" id="Animation_d1xbe"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("CSGMesh3D:rotation")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector3(0, 0, 0)]
 }
 
 [sub_resource type="Animation" id="Animation_2woje"]
@@ -82,4 +82,7 @@ mesh = SubResource("BoxMesh_6clns")
 libraries = {
 "": SubResource("AnimationLibrary_0p174")
 }
-blend_times = [&"RESET", &"RESET", 0.8, &"RESET", &"anim1", 0.8, &"RESET", &"anim3", 0.8, &"RESET", &"anim2", 0.8, &"anim1", &"RESET", 0.8, &"anim1", &"anim1", 0.8, &"anim1", &"anim3", 0.8, &"anim1", &"anim2", 0.8, &"anim3", &"RESET", 0.8, &"anim3", &"anim1", 0.8, &"anim3", &"anim3", 0.8, &"anim3", &"anim2", 0.8, &"anim2", &"RESET", 0.8, &"anim2", &"anim1", 0.8, &"anim2", &"anim3", 0.8, &"anim2", &"anim2", 0.8]
+blend_times = [&"RESET", &"RESET", 0.8, &"RESET", &"anim3", 0.8, &"RESET", &"anim2", 0.8, &"RESET", &"anim1", 0.8, &"anim3", &"RESET", 0.8, &"anim3", &"anim3", 0.8, &"anim3", &"anim2", 0.8, &"anim3", &"anim1", 0.8, &"anim2", &"RESET", 0.8, &"anim2", &"anim3", 0.8, &"anim2", &"anim2", 0.8, &"anim2", &"anim1", 0.8, &"anim1", &"RESET", 0.8, &"anim1", &"anim3", 0.8, &"anim1", &"anim2", 0.8, &"anim1", &"anim1", 0.8]
+
+[node name="Node3D" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.54048, 0, 0)
