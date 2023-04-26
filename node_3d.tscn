@@ -82,7 +82,7 @@ mesh = SubResource("BoxMesh_6clns")
 libraries = {
 "": SubResource("AnimationLibrary_0p174")
 }
-blend_times = [&"RESET", &"RESET", 0.8, &"RESET", &"anim3", 0.8, &"RESET", &"anim2", 0.8, &"RESET", &"anim1", 0.8, &"anim3", &"RESET", 0.8, &"anim3", &"anim3", 0.8, &"anim3", &"anim2", 0.8, &"anim3", &"anim1", 0.8, &"anim2", &"RESET", 0.8, &"anim2", &"anim3", 0.8, &"anim2", &"anim2", 0.8, &"anim2", &"anim1", 0.8, &"anim1", &"RESET", 0.8, &"anim1", &"anim3", 0.8, &"anim1", &"anim2", 0.8, &"anim1", &"anim1", 0.8]
+blend_times = [&"RESET", &"RESET", 0.8, &"RESET", &"anim2", 0.8, &"RESET", &"anim1", 0.8, &"RESET", &"anim3", 0.8, &"anim2", &"RESET", 0.8, &"anim2", &"anim2", 0.8, &"anim2", &"anim1", 0.8, &"anim2", &"anim3", 0.8, &"anim1", &"RESET", 0.8, &"anim1", &"anim2", 0.8, &"anim1", &"anim1", 0.8, &"anim1", &"anim3", 0.8, &"anim3", &"RESET", 0.8, &"anim3", &"anim2", 0.8, &"anim3", &"anim1", 0.8, &"anim3", &"anim3", 0.8]
 
 [node name="Node3D" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.54048, 0, 0)
